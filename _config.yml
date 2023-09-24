@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: every Thing for ..
+title: Every Things
 email: heun115@naver.com
 author: heung115
 
