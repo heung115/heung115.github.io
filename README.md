@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Jekyll Gitbook Theme
+title: heung115
 permalink: /
 ---
 
@@ -32,9 +32,9 @@ see [the official guide][13] as well.
 
 You can introduce this jekyll theme into your own site by either
 
-- [Fork][3] this repository and add your markdown posts to the `_posts` folder.
-- Use as a remote theme in your [`_config.yml`][14](just like what we do for this
-  site itself),
+-   [Fork][3] this repository and add your markdown posts to the `_posts` folder.
+-   Use as a remote theme in your [`_config.yml`][14](just like what we do for this
+    site itself),
 
 ```yaml
 remote_theme: sighingnow/jekyll-gitbook
@@ -65,7 +65,7 @@ style can be added to [./assets/gitbook/rouge/](./assets/gitbook/rouge/).
 
 ## How to generate TOC
 
-The jekyll-gitbook theme leverages [jekyll-toc][4] to generate the *Contents* for the page.
+The jekyll-gitbook theme leverages [jekyll-toc][4] to generate the _Contents_ for the page.
 The TOC feature is not enabled by default. To use the TOC feature, modify the TOC
 configuration in `_config.yml`:
 
@@ -83,21 +83,21 @@ minimal configuration in `_config.yaml`:
 
 ```yaml
 tracker:
-  google_analytics: "<YOUR GOOGLE ANALYTICS KEY, e.g, UA-xxxxxx-x>"
+    google_analytics: "<YOUR GOOGLE ANALYTICS KEY, e.g, UA-xxxxxx-x>"
 ```
 
 Similarly, CNZZ can be added with the following configuration in `_config.yaml`
 
 ```yaml
 tracker:
-  cnzz: "<YOUR CNZZ ANALYTICS KEY, e.g., xxxxxxxx>"
+    cnzz: "<YOUR CNZZ ANALYTICS KEY, e.g., xxxxxxxx>"
 ```
 
 Application Insights can be added with the following configuration in `_config.yaml`
 
 ```yaml
 tracker:
-  application_insights: "<YOUR APPLICATION INSIGHTS CONNECTION STRING>"
+    application_insights: "<YOUR APPLICATION INSIGHTS CONNECTION STRING>"
 ```
 
 ## Disqus comments
@@ -112,9 +112,9 @@ disqushandler: "<YOUR DISQUS SHORTNAME>"
 
 You can add extra CSS or JavaScript references using configuration collections:
 
-- extra_css: for additional style sheets. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
-- extra_header_js: for additional scripts to be included in the `<head>` tag, after the `extra_css` has been added. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
-- extra_footer_js: for additional scripts to be included at the end of the HTML document, just before the site tracking script. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
+-   extra_css: for additional style sheets. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
+-   extra_header_js: for additional scripts to be included in the `<head>` tag, after the `extra_css` has been added. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
+-   extra_footer_js: for additional scripts to be included at the end of the HTML document, just before the site tracking script. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
 
 ## Customizing font settings
 
@@ -139,7 +139,7 @@ The jekyll-gitbook theme supports customized kramdown attributes (`{: .block-tip
 >
 > This guide is last tested with @napi-rs/canvas^0.1.20, so make sure you have
 > this or a similar version after installation.
-{: .block-tip }
+> {: .block-tip }
 ```
 
 Rendered page can be previewed from
